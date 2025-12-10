@@ -1,0 +1,26 @@
+vim.g.mapleader = " "
+vim.o.background = "dark"
+vim.o.backup = false
+vim.o.expandtab = true
+vim.o.hlsearch = false
+vim.o.incsearch = true
+vim.o.number = true
+vim.o.relativenumber = true
+vim.o.scrolloff = 4
+vim.o.shiftwidth = 2
+vim.o.showmode = false
+vim.o.signcolumn = "yes"
+vim.o.smartindent = true
+vim.o.softtabstop = 2
+vim.o.swapfile = false
+vim.o.tabstop = 2
+vim.o.termguicolors = true
+vim.o.updatetime = 50
+vim.o.winborder = "rounded"
+vim.o.wrap = false
+vim.o.clipboard = "unnamedplus"
+vim.o.breakindent = true
+vim.o.laststatus = 0
+
+vim.cmd(":hi statusline guibg=NONE")
+
