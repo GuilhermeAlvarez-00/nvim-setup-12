@@ -1,5 +1,7 @@
 require("config.options")
 require("config.keymaps")
+require("config.lsp")
+require("config.diagnostics")
 
 vim.pack.add({
   -- dependencies plugins
@@ -39,13 +41,7 @@ vim.pack.add({
   { src = "https://github.com/nvim-lualine/lualine.nvim" },
 
   -- lazygit
-  {
-    src = "https://github.com/kdheepak/lazygit.nvim",
-    name = "lazygit",
-
-    -- lazy loading triggers
-
-  }
+  { src = "https://github.com/kdheepak/lazygit.nvim",                  name = "lazygit" },
 })
 
 -- load config files for the plugins above

@@ -8,6 +8,11 @@
       "rev": "3f86702b54a861a17d7994b2e32a7c648cb12fb1",
       "src": "https://github.com/m4xshen/autoclose.nvim"
     },
+    "blink.cmp": {
+      "rev": "ee7cfac8e1d0bf9b90a27d7a9823c13389bead08",
+      "src": "https://github.com/Saghen/blink.cmp",
+      "version": "'1.*'"
+    },
     "catppuccin": {
       "rev": "193e123cdbc4dd3e86db883d55349e9587f0ded6",
       "src": "https://github.com/catppuccin/nvim"
@@ -31,6 +36,10 @@
     "fluoromachine": {
       "rev": "a279f667168e742df059caf1f1f4daf1de24f4f8",
       "src": "https://github.com/maxmx03/fluoromachine.nvim"
+    },
+    "friendly-snippets": {
+      "rev": "572f5660cf05f8cd8834e096d7b4c921ba18e175",
+      "src": "https://github.com/rafamadriz/friendly-snippets"
     },
     "harpoon": {
       "rev": "87b1a3506211538f460786c23f98ec63ad9af4e5",
@@ -68,6 +77,10 @@
     "nvim-cmp": {
       "rev": "d97d85e01339f01b842e6ec1502f639b080cb0fc",
       "src": "https://github.com/hrsh7th/nvim-cmp.git"
+    },
+    "nvim-emmet": {
+      "rev": "cde4fb2968704aae5c18b7f8a9bc2508767bb78d",
+      "src": "https://github.com/olrtg/nvim-emmet"
     },
     "nvim-lspconfig": {
       "rev": "a2bd1cf7b0446a7414aaf373cea5e4ca804c9c69",

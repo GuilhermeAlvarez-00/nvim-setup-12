@@ -14,6 +14,6 @@ for _, cmd in ipairs({
   })
 end
 
-vim.keymap.set("n", "g", function()
+vim.keymap.set("n", "gl", function()
   vim.cmd("LazyGit")
 end, { desc = "Open LazyGit" })
