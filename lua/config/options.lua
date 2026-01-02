@@ -21,6 +21,9 @@ vim.o.wrap = false
 vim.o.clipboard = "unnamedplus"
 vim.o.breakindent = true
 vim.o.laststatus = 0
+vim.o.cmdheight = 0
+vim.o.shortmess = vim.o.shortmess .. "c"
+
+vim.g.user_emmet_leader_key = "<C-y>"
 
 vim.cmd(":hi statusline guibg=NONE")
-
