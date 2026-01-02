@@ -4,9 +4,6 @@ require("config.keymaps")
 vim.pack.add({
   -- dependencies plugins
   { src = "https://github.com/nvim-lua/plenary.nvim" },        -- (telescope|harpoon)
-  { src = "https://github.com/saadparwaiz1/cmp_luasnip.git" }, -- (LuaSnip)
-  { src = "https://github.com/hrsh7th/cmp-path.git" },         -- (nvim-cmp)
-  { src = "https://github.com/hrsh7th/cmp-buffer.git" },       -- (nvim-cmp)
   { src = "https://github.com/MunifTanjim/nui.nvim" },         -- (noice)
   { src = "https://github.com/nvim-tree/nvim-web-devicons" },  -- (lualine)
 
