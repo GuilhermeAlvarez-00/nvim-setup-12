@@ -3,7 +3,6 @@ local opts = { noremap = true, silent = true }
 
 -- NORMAL
 keymap("i", "jj", "<ESC>", opts)
-keymap("n", "<leader>i", "<CMD>Lspsaga goto_definition<CR>")
 keymap("n", "ff", "F")
 keymap("n", "tm", "<CMD> Telescope colorscheme <CR>")
 keymap("n", "<leader>sa", "<CMD>wa <CR>")
@@ -33,5 +32,3 @@ keymap("n", "<leader>sd", function()
   vim.diagnostic.open_float(nil, { border = "rounded" })
 end, opts)
 keymap("n", "<leader>i", vim.lsp.buf.definition, opts)
-
-
