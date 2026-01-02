@@ -6,6 +6,7 @@ vim.pack.add({
   { src = "https://github.com/nvim-lua/plenary.nvim" },        -- (telescope|harpoon)
   { src = "https://github.com/MunifTanjim/nui.nvim" },         -- (noice)
   { src = "https://github.com/nvim-tree/nvim-web-devicons" },  -- (lualine)
+  { src = "https://github.com/rafamadriz/friendly-snippets" }, -- (blink)
 
   -- themes
   { src = "https://github.com/catppuccin/nvim",                        name = "catppuccin" },
@@ -23,10 +24,10 @@ vim.pack.add({
   -- autoclose
   { src = "https://github.com/m4xshen/autoclose.nvim" },
 
-  -- completions
+  -- blink
   { src = "https://github.com/L3MON4D3/LuaSnip.git" },
-  { src = "https://github.com/hrsh7th/nvim-cmp.git" },
-  { src = "https://github.com/hrsh7th/cmp-nvim-lsp.git" },
+  { src = 'https://github.com/Saghen/blink.cmp',                       version = "1.*" },
+
 
   -- harpoon
   { src = "https://github.com/ThePrimeagen/harpoon",                   version = "harpoon2" },
