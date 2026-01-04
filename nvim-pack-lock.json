@@ -33,6 +33,10 @@
       "rev": "98d9cb5c2c38532bd9bdb481067b20fea8f32e90",
       "src": "https://github.com/saadparwaiz1/cmp_luasnip.git"
     },
+    "conform.nvim": {
+      "rev": "8314f4c9e205e7f30b62147069729f9a1227d8bf",
+      "src": "https://github.com/stevearc/conform.nvim"
+    },
     "fluoromachine": {
       "rev": "a279f667168e742df059caf1f1f4daf1de24f4f8",
       "src": "https://github.com/maxmx03/fluoromachine.nvim"
