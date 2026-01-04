@@ -42,6 +42,9 @@ vim.pack.add({
 
   -- lazygit
   { src = "https://github.com/kdheepak/lazygit.nvim",                  name = "lazygit" },
+
+  -- conform
+  { src = "https://github.com/stevearc/conform.nvim"}
 })
 
 -- load config files for the plugins above
