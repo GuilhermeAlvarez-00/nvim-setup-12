@@ -13,6 +13,10 @@
       "src": "https://github.com/Saghen/blink.cmp",
       "version": "'1.*'"
     },
+    "bluloco": {
+      "rev": "bfd8f9184d7f29e88649b4e0262730817eb5d695",
+      "src": "https://github.com/uloco/bluloco.nvim"
+    },
     "catppuccin": {
       "rev": "193e123cdbc4dd3e86db883d55349e9587f0ded6",
       "src": "https://github.com/catppuccin/nvim"
@@ -37,6 +41,10 @@
       "rev": "8314f4c9e205e7f30b62147069729f9a1227d8bf",
       "src": "https://github.com/stevearc/conform.nvim"
     },
+    "cyberpunk-2077": {
+      "rev": "e0a0c1c9e4b4d5629db3c7b5938a2af8cb31751e",
+      "src": "https://github.com/followLemmi/cyberpunk-2077.nvim"
+    },
     "fluoromachine": {
       "rev": "a279f667168e742df059caf1f1f4daf1de24f4f8",
       "src": "https://github.com/maxmx03/fluoromachine.nvim"
@@ -49,6 +57,10 @@
       "rev": "87b1a3506211538f460786c23f98ec63ad9af4e5",
       "src": "https://github.com/ThePrimeagen/harpoon",
       "version": "'harpoon2'"
+    },
+    "kanagawa": {
+      "rev": "aef7f5cec0a40dbe7f3304214850c472e2264b10",
+      "src": "https://github.com/rebelot/kanagawa.nvim"
     },
     "lazygit": {
       "rev": "2305deed25bc61b866d5d39189e9105a45cf1cfb",
@@ -101,6 +113,14 @@
     "plenary.nvim": {
       "rev": "b9fd5226c2f76c951fc8ed5923d85e4de065e509",
       "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "sphere": {
+      "rev": "1f7e7eaa9f2f7f77cae373427fee1d21a6b9dd2b",
+      "src": "https://github.com/devoc09/sphere.vim"
+    },
+    "techbase": {
+      "rev": "25f814c3eba43f13d8f62d526434d7ba125e6add",
+      "src": "https://github.com/mcauley-penney/techbase.nvim"
     },
     "telescope-ui-select.nvim": {
       "rev": "6e51d7da30bd139a6950adf2a47fda6df9fa06d2",

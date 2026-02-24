@@ -13,6 +13,8 @@ vim.pack.add({
   -- themes
   { src = "https://github.com/catppuccin/nvim",                        name = "catppuccin" },
   { src = "https://github.com/maxmx03/fluoromachine.nvim",             name = "fluoromachine" },
+  { src = "https://github.com/followLemmi/cyberpunk-2077.nvim",        name = "cyberpunk-2077" },
+  { src = "https://github.com/rebelot/kanagawa.nvim",                  name = "kanagawa" },
 
   -- lspconfig, treesitter and others...
   { src = "https://github.com/neovim/nvim-lspconfig", },
@@ -44,7 +46,7 @@ vim.pack.add({
   { src = "https://github.com/kdheepak/lazygit.nvim",                  name = "lazygit" },
 
   -- conform
-  { src = "https://github.com/stevearc/conform.nvim"}
+  { src = "https://github.com/stevearc/conform.nvim" }
 })
 
 -- load config files for the plugins above
