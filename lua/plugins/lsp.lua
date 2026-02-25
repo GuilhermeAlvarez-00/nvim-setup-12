@@ -16,6 +16,11 @@ require("mason-lspconfig").setup({
 
 -- LSP's Config
 vim.lsp.config("vtsls", {
+  capabilities = {
+    textDocument = {
+      semanticTokens = nil
+    }
+  },
   settings = {
     typescript = {
       tsserver = {
