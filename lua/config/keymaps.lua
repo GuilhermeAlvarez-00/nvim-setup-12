@@ -24,11 +24,11 @@ keymap("n", "<leader>fa", vim.lsp.buf.format, {})
 
 keymap("n", "<C-s>", ":w<CR>")
 
-
 -- lsp keymaps
 keymap("n", "K", vim.lsp.buf.hover, opts)
 keymap("n", "<leader>ca", vim.lsp.buf.code_action, opts)
 keymap("n", "<leader>sd", function()
   vim.diagnostic.open_float(nil, { border = "rounded" })
 end, opts)
-keymap("n", "<leader>i", vim.lsp.buf.definition, opts)
+
+keymap("n", "<leader>i", vim.lsp.buf.implementation, opts)
