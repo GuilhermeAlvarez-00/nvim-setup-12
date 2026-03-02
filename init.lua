@@ -11,7 +11,7 @@ vim.pack.add({
   { src = "https://github.com/stevearc/conform.nvim" },
   { src = "https://github.com/m4xshen/autoclose.nvim" },
   { src = "https://github.com/L3MON4D3/LuaSnip.git" },
-  { src = 'https://github.com/Saghen/blink.cmp',                       version = "1.*" },
+  { src = 'https://github.com/Saghen/blink.cmp' },
   { src = "https://github.com/ThePrimeagen/harpoon",                   version = "harpoon2" },
   { src = "https://github.com/folke/noice.nvim" },
   { src = "https://github.com/nvim-lualine/lualine.nvim" },
@@ -33,6 +33,8 @@ vim.pack.add({
   { src = "https://github.com/maxmx03/fluoromachine.nvim",             name = "fluoromachine" },
   { src = "https://github.com/followLemmi/cyberpunk-2077.nvim",        name = "cyberpunk-2077" },
   { src = "https://github.com/rebelot/kanagawa.nvim",                  name = "kanagawa" },
+  { src = "https://github.com/binhtddev/dracula.nvim",                 name = "dracula" }
+
 })
 
 -- load config files for the plugins above
