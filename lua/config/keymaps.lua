@@ -31,4 +31,5 @@ keymap("n", "<leader>sd", function()
   vim.diagnostic.open_float(nil, { border = "rounded" })
 end, opts)
 
-keymap("n", "<leader>i", vim.lsp.buf.implementation, opts)
+--keymap("n", "<leader>i", vim.lsp.buf.definition, opts)
+keymap("n", "<leader>i", "<cmd>Telescope lsp_definitions<CR>", opts)
