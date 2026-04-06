@@ -23,9 +23,21 @@ vim.lsp.config("vtsls", {
   },
   settings = {
     typescript = {
+      updateImportsOnFileMove = {
+        enabled = "never",
+      },
       tsserver = {
         maxTsServerMemory = 8192,
       },
     },
+    javascript = {
+      updateImportsOnFileMove = {
+        enabled = "never",
+      },
+    },
   },
 })
+
+vim.lsp.config("prismals", {})
+
+vim.lsp.config("tailwindcss", {});

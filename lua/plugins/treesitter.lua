@@ -1,5 +1,5 @@
 require('nvim-treesitter').setup({
-  ensure_installed = { "javascript", "typescript", "lua", "vim", "vimdoc", "query" },
+  ensure_installed = { "javascript", "typescript", "lua", "vim", "vimdoc", "query", "prisma" },
   sync_install = false,
   auto_install = true,
   ident = {
